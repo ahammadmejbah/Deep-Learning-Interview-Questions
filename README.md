@@ -1,6 +1,5 @@
-# Questions 01
-
-**Can you explain the concept of transfer learning in the context of deep learning, and provide an example of when and why it is useful?**
+# **Questions 01**
+### **Can you explain the concept of transfer learning in the context of deep learning, and provide an example of when and why it is useful?**
 
 **Answer:**
 Transfer learning is a powerful technique in deep learning that involves leveraging pre-trained neural network models to solve new, related tasks. Instead of training a neural network from scratch, transfer learning starts with a pre-trained model, usually on a large dataset, and fine-tunes it for a specific task. This approach offers several advantages, such as reduced training time, improved generalization, and the ability to achieve good results with smaller datasets.
@@ -21,5 +20,5 @@ Let's consider an example in computer vision. Suppose you want to build an image
   2. **Fine-tuning**: Modify the last few layers of the CNN to match the number of cat species you want to classify. Then, train the modified network on your cat dataset. The lower layers will retain their knowledge of generic features, while the final layers will adapt to the specific cat classification task.
 
 The advantages of transfer learning in this scenario include faster convergence, the ability to work with a smaller dataset, and potentially better classification performance.
-
+    
 Transfer learning allows deep learning models to benefit from knowledge gained on related tasks, making it a valuable technique for improving model performance, reducing training time, and achieving better results with limited data.
